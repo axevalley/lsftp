@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='lsftp',
-    version='1.0.01',
+    version='1.0',
     description='Wrapper for ftplib',
     author='Luke Shiner',
     author_email='luke@lukeshiner.com',
