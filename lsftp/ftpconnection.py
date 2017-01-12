@@ -18,6 +18,9 @@ class FTP_Connection:
         if folder != '':
             self.ftp.cwd(folder)
 
+    def __repr__(self):
+        return '{self.user}@{self.host}:{self.port}'
+
     def cd(self, folder):
         return self.ftp.cwd(folder)
 
